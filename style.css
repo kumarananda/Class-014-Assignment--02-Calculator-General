@@ -1,6 +1,9 @@
-
+/* 02 */
  /* calculator Start  */
-
+ .calculator-title{
+	background-color: bisque;
+	margin-bottom: 0;
+}
  .calculator {
     display: flex;
     justify-content: center;
