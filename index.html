@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../../allstyle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- Simple Calculator Start-->
+<section class="calculator">
+    <div class="cal_body shadow">
+        <div class="monitor">
+            <div class="moTop">0</div>
+            <div class="mobuttom"></div>
+        </div>
+        <div class="keybord">
+                <button style="width: 47.5%;" onclick="allClear()">AE</button>
+                <button style="width: 47.5%;" onclick="oneclear()">C</button>
+                <button onclick="calvalue(7)">7</button>
+                <button onclick="calvalue(8)">8</button>
+                <button onclick="calvalue(9)">9</button>
+                <button onclick="calvalue(`/`)">÷</button>
+                
+                <button onclick="calvalue(4)">4</button>
+                <button onclick="calvalue(5)">5</button>
+                <button onclick="calvalue(6)">6</button>
+                <button onclick="calvalue(`*`)">x</button>
+                
+                <button onclick="calvalue(1)">1</button>
+                <button onclick="calvalue(2)">2</button>
+                <button onclick="calvalue(3)">3</button>
+                <button onclick="calvalue('-')" >-</button>
+                
+                <button onclick="calvalue(0)" >0</button>
+                <button onclick="calvalue('.')" >.</button>
+                <button onclick="finalresult()" >=</button>
+                <button onclick="calvalue(`+`)">+</button>
+        </div>
+    </div>
+</section>
+<!-- Simple Calculator End-->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="app1.js"></script>
+    <script src="function.js"></script>
+    <script src="gatlink.js"></script>
+    <script src="../../homelink.js"></script>
+</body>
+</html>
